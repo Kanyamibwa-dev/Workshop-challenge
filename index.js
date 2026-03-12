@@ -19,4 +19,19 @@ console.log(canBoard, " can board" );
 // challenge 2 : Online Store Discount
 
 
+let itemPrice = 25;
+let quantity = 6;
+let isMember = true;
+
+let totalPrice = itemPrice * quantity;
+console.log(totalPrice, "total price");
+
+let discountApplies = totalPrice > 100 && isMember;
+console.log(discountApplies, "discount Applies");
+
+let discount = totalPrice * 0.10;
+console.log(discount, "discount")
+
+let finalPrice = totalPrice - discount ;
+console.log(finalPrice , " final price");
 
