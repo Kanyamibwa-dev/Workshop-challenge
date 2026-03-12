@@ -59,3 +59,20 @@ console.log(newBattery + " % ", "New Battery level:");
 let warning = newBattery < 20 || !chargerConnected;
 console.log(warning, "Warning needed:")
 
+
+// Challenge 5 : Cinema Ticket Price
+
+
+let adultPrice = 10;
+let childPrice = 5;
+
+let adultTickets = 3;
+let childTickets = 4;
+
+let weekend = true;
+ 
+let totalCost = (adultTickets * adultPrice) + (childTickets * childPrice);
+console.log(totalCost);
+
+let dicountApplies = totalPrice > 5 && weekend;
+console.log(discountApplies)
