@@ -117,5 +117,15 @@ console.log(orderAmount);
 let feeDerivery = orderAmount > 15000 || userPremium ;
 console.log(feeDerivery, "free delivery applies");
 
+// Challenge 10: Event Entry System
 
+
+let userId = true;
+let userHasTicket = true;
+let userAge = 20;
+let userTicketPrice = 30;
+console.log(userTicketPrice);
+
+let userCanEnter = userHasTicket && userId && userAge >= 18;
+console.log(userCanEnter);
 
