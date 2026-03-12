@@ -86,3 +86,16 @@ let maxCapacity = 50;
 
 let canEnter = activeMember && memberAge >= 16 && currentCapacity < maxCapacity;
 console.log(canEnter);
+
+// Challenge 7: Internet Data Usage
+
+let monthlyLimit = 50;
+let daUsage = 70;
+let isPremium = false;
+let remainingData = monthlyLimit - daUsage;
+console.log(remainingData + "GB");
+
+let speedReduced = daUsage > monthlyLimit && !isPremium;
+console.log(speedReduced);
+
+
