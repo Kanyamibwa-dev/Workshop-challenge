@@ -76,3 +76,13 @@ console.log(totalCost);
 
 let dicountApplies = totalPrice > 5 && weekend;
 console.log(discountApplies)
+
+// Challenge 6: Gym Access System
+
+let activeMember = true;
+let memberAge = 18 ;
+let currentCapacity = 40;
+let maxCapacity = 50;
+
+let canEnter = activeMember && memberAge >= 16 && currentCapacity < maxCapacity;
+console.log(canEnter);
