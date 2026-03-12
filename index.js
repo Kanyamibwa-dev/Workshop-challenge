@@ -45,3 +45,17 @@ console.log(pass, "student pass");
 
 let distinction = score >= 85 && pass ;
 console.log(distinction , " Student gets distinction");
+
+// Challenge 4 : Phone Battery Warning
+
+
+let battery = 50;
+let usage = 15;
+let chargerConnected = false;
+
+let newBattery = battery - usage ;
+console.log(newBattery + " % ", "New Battery level:");
+
+let warning = newBattery < 20 || !chargerConnected;
+console.log(warning, "Warning needed:")
+
