@@ -35,3 +35,13 @@ console.log(discount, "discount")
 let finalPrice = totalPrice - discount ;
 console.log(finalPrice , " final price");
 
+// challenge 3 : Student Pass/ Fail system 
+
+let score = 90;
+let attendance = 80;
+
+let pass = score >= 50 && attendance >= 75;
+console.log(pass, "student pass");
+
+let distinction = score >= 85 && pass ;
+console.log(distinction , " Student gets distinction");
