@@ -106,3 +106,16 @@ let coins = 50;
 
 let playerQuailfied = userScore >= 1000 && lives > 0 && coins >=50 ;
 console.log(playerQuailfied , "the player is qualified");
+
+// Challenge 9: Food Delivery Fee Calculator
+
+let baseDeliveryFee = 2000;
+let order = 5;
+let userPremium = true;
+let orderAmount = baseDeliveryFee * order;
+console.log(orderAmount);
+let feeDerivery = orderAmount > 15000 || userPremium ;
+console.log(feeDerivery, "free delivery applies");
+
+
+
