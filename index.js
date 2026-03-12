@@ -98,4 +98,11 @@ console.log(remainingData + "GB");
 let speedReduced = daUsage > monthlyLimit && !isPremium;
 console.log(speedReduced);
 
+// Challenge 8: Game Level Unlock System
 
+let userScore = 2000;
+let lives = 4;
+let coins = 50;
+
+let playerQuailfied = userScore >= 1000 && lives > 0 && coins >=50 ;
+console.log(playerQuailfied , "the player is qualified");
